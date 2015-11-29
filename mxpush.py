@@ -7,7 +7,7 @@ app = Flask(__name__)
 config = ConfigParser.ConfigParser()
 config.read('/etc/mxpush.conf')
 TOKEN = config.get("Matrix", "token")
-HOMESERVEr = config.get("Matrix", "homeserver")
+HOMESERVER = config.get("Matrix", "homeserver")
 ROOMID = config.get("Matrix", "room_id")
   
 @app.route("/", methods=["POST"])
