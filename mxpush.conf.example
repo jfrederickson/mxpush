@@ -1,0 +1,4 @@
+[Matrix]
+token=supersekret
+homeserver=https://terracrypt.net:8448
+room_id=!stuff:example.com
